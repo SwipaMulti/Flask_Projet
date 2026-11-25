@@ -1,12 +1,12 @@
 # 📒 Mon carnet de bord
 
-**Nom :** 
+**Nom : fofana 
 
-**Prénom :** 
+**Prénom :** Mamady
 
-**Adresse de mon site :** https://______.pythonanywhere.com
+**Adresse de mon site :** https://swipa.pythonanywhere.com
 
-**Adresse de mon dépôt GitHub :** https://github.com/______
+**Adresse de mon dépôt GitHub :** https://github.com/SwipaMulti/Flask_Projet
 
 > Modifiez ce fichier directement sur GitHub (icône crayon ✏️) pour répondre aux questions de chaque exercice.
 > Écrivez avec vos propres mots : une réponse courte et juste vaut mieux qu'un long copier-coller ! 🙂
@@ -17,19 +17,20 @@
 
 1. Expliquez avec vos mots la différence entre une **table**, une **colonne** et une **ligne**.
 
-   > _Ma réponse :_ 
+   > _Ma réponse : La table désigne d'un tableau sur une catégorie, classification précise, il en existe généralement plusieurs dans une base de donnée, Une colonne regroupe les différentes catégories de la table, il peut s'agit du nom,prénom,mail etc... La ligne elle est composé des différents éléments et informations d'une entité précise présente dans la table.
 
 2. À quoi sert la clé primaire `id` ? Pourquoi ne pas simplement identifier un client par son nom ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse : Elle sert a identifier clairement chaque ligne, il se peut que plusieurs ligne soit composées du même nom, dans ce cas la, la clé primaire permet d'identifier facilement et de distinguer chaque ligne similaire.
 
 3. Pourquoi votre client ajouté en console est-il apparu sur le site ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse : Car je l'ai ajouté à la base de donnée directement via la console Python, en me connectant à celle ci et en utilisant les bonnes commandes, la base de donnée est ensuite mis à jour et étant liée au site, les nouvelles données y figures
 
 4. Que signifie `NOT NULL` dans `schema.sql` ? Quelle erreur avez-vous obtenue avec `INSERT INTO clients (nom) VALUES ('TEST');` ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_ NOT NULL oblige une colonne à toujours obtenir une valeur lors d'un nouvel ajout sinon quoi ça ne fonctionnera pas : Error: stepping, NOT NULL constraint failed: clients.prenom (19)
+
 
 🧩 **Défi** — mes requêtes / ma solution :
 
